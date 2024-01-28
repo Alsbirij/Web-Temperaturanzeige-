@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Monitor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Bereich für Datum und Uhrzeit -->
+        <div class="datetime">
+            <p>{{ current_datetime }}</p>
+        </div>
+        
+        <!-- Bereich für aktuelle Temperaturanzeige -->
+        <div class="temperature">
+            <h1>Current Temperature</h1>
+            <p>{{ celsius }}&deg;C / {{ fahrenheit }}&deg;F</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+/* Allgemeine Stile für die Webseite */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg'); /* Pfad zum Hintergrundbild */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Stile für den Hauptcontainer */
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Hintergrundfarbe mit Transparenz */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Stile für die Überschrift */
+h1 {
+    color: #ff5722;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Stile für den Bereich Datum und Uhrzeit */
+.datetime {
+    margin-top: 20px;
+    color: #555;
+    font-size: 18px;
+}
+
+/* Stile für den Bereich Temperaturanzeige */
+.temperature {
+    margin-top: 20px;
+    color: #ff5722;
+    font-size: 24px;
+}
